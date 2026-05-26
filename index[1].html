@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Closet Erica Souza | Moda Feminina</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="topbar">10% OFF NA PRIMEIRA COMPRA | CUPOM: PRIMEIRA10</div>
+
+  <header class="header">
+    <a class="logo" href="#">
+      <span>CLOSET</span>
+      <small>ERICA SOUZA</small>
+    </a>
+
+    <div class="search">
+      <input id="searchInput" type="text" placeholder="O que deseja procurar?" />
+      <button aria-label="Pesquisar">⌕</button>
+    </div>
+
+    <div class="header-actions">
+      <a href="https://wa.me/556196278229" target="_blank" class="action">
+        <span>☏</span>
+        <div><small>Atendimento</small><strong>WhatsApp</strong></div>
+      </a>
+      <a href="https://www.instagram.com/closet_ericasouza" target="_blank" class="action">
+        <span>♡</span>
+        <div><small>Instagram</small><strong>Acessar</strong></div>
+      </a>
+      <button class="cart">🛍️<b>0</b></button>
+    </div>
+
+    <button class="mobile-menu" id="mobileMenu">☰</button>
+  </header>
+
+  <nav class="nav" id="nav">
+    <a href="#categorias">☰ Todas Categorias</a>
+    <a href="#produtos">Novidades</a>
+    <a href="#produtos">Vestidos</a>
+    <a href="#produtos">Blusas</a>
+    <a href="#produtos">Conjuntos</a>
+    <a href="#produtos">Calças</a>
+    <a href="#produtos">Saias</a>
+    <a href="#produtos">Shorts</a>
+    <a href="#produtos">Macacão</a>
+    <a class="offer" href="#promocoes">✦ Ofertas Especiais</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <button class="hero-arrow left">‹</button>
+      <div class="hero-text">
+        <span></span>
+        <p>SEU ESTILO, SUA ESSÊNCIA.</p>
+        <h1>Do casual ao <em>chique off.</em></h1>
+        <h2>Encontre o look perfeito para qualquer ocasião.</h2>
+        <a href="#produtos" class="btn white">COMPRAR AGORA ›</a>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/img/produto-1.jpeg" alt="Look destaque Closet Erica Souza">
+      </div>
+      <button class="hero-arrow right">›</button>
+      <div class="dots"><i></i><i></i><i></i></div>
+    </section>
+
+    <section class="benefits">
+      <article><strong>▣</strong><b>Parcelamento</b><span>Em até 6x sem juros</span></article>
+      <article><strong>▱</strong><b>Envio para todo Brasil</b><span>Frete rápido e seguro</span></article>
+      <article><strong>☏</strong><b>Atendimento</b><span>Via WhatsApp</span></article>
+      <article><strong>◎</strong><b>Site 100% seguro</b><span>Seus dados protegidos</span></article>
+      <article><strong>%</strong><b>10% off na 1ª compra</b><span>Cupom: PRIMEIRA10</span></article>
+    </section>
+
+    <section class="section categories" id="categorias">
+      <div class="title left">
+        <small>NAVEGUE POR</small>
+        <h2>Categorias</h2>
+      </div>
+
+      <div class="category-row">
+        <button>‹</button>
+        <a href="#produtos" class="category"><img src="assets/img/produto-1.jpeg"><b>VESTIDOS</b><span>VER TODOS</span></a>
+        <a href="#produtos" class="category"><img src="assets/img/produto-2.jpeg"><b>BLUSAS</b><span>VER TODOS</span></a>
+        <a href="#produtos" class="category"><img src="assets/img/produto-3.jpeg"><b>CAMISAS</b><span>VER TODOS</span></a>
+        <a href="#produtos" class="category"><img src="assets/img/produto-4.jpeg"><b>CONJUNTOS</b><span>VER TODOS</span></a>
+        <a href="#produtos" class="category"><img src="assets/img/produto-5.jpeg"><b>PROMOÇÕES</b><span>VER TODOS</span></a>
+        <a href="#produtos" class="category"><img src="assets/img/produto-6.jpeg"><b>CASUAL CHIC</b><span>VER TODOS</span></a>
+        <button>›</button>
+      </div>
+    </section>
+
+    <section class="promo-banner" id="promocoes">
+      <div>
+        <h2>Confira nossas ofertas da semana</h2>
+        <p>Produtos selecionados com preços especiais e curadoria premium.</p>
+      </div>
+      <a href="#produtos">Ver tudo</a>
+    </section>
+
+    <section class="big-banners">
+      <article>
+        <img src="assets/img/produto-3.jpeg">
+        <div><small>COLEÇÃO</small><h3>Camisas Premium</h3><a href="#produtos">COMPRE AGORA</a></div>
+      </article>
+      <article>
+        <img src="assets/img/produto-4.jpeg">
+        <div><small>OFERTAS</small><h3>Conjuntos</h3><a href="#produtos">COMPRE AGORA</a></div>
+      </article>
+    </section>
+
+    <section class="section" id="produtos">
+      <div class="title center">
+        <h2>Super Promoção | Até 50% Off</h2>
+      </div>
+
+      <div class="filters">
+        <button class="active" data-filter="Todos">Todos</button>
+        <button data-filter="Camisas">Camisas</button>
+        <button data-filter="Vestidos">Vestidos</button>
+        <button data-filter="Conjuntos">Conjuntos</button>
+      </div>
+
+      <div id="products" class="products"></div>
+    </section>
+
+    <section class="store-info">
+      <div class="store-image">
+        <img src="assets/img/produto-2.jpeg">
+      </div>
+      <div class="store-text">
+        <small>INSTITUCIONAL</small>
+        <h2>Closet Erica Souza</h2>
+        <p>Uma loja de moda feminina criada para mulheres que buscam elegância, praticidade e presença em todos os momentos.</p>
+        <p>Trabalhamos com curadoria de peças femininas, atendimento personalizado via WhatsApp e compra facilitada para todo o Brasil.</p>
+        <ul>
+          <li><b>CNPJ:</b> 50.698.445/0001-65</li>
+          <li><b>Instagram:</b> @closet_ericasouza</li>
+          <li><b>WhatsApp:</b> +55 61 9627-8229</li>
+        </ul>
+        <a class="btn dark" target="_blank" href="https://wa.me/556196278229">FALAR COM ATENDIMENTO</a>
+      </div>
+    </section>
+
+    <section class="section reviews">
+      <div class="title center"><h2>Avaliações dos Clientes</h2></div>
+      <div class="review-grid">
+        <article><div>S</div><h3>Silvana Pereira <span>★★★★★</span></h3><b>Compra verificada</b><p>Roupas lindas, envio rápido e atendimento atencioso.</p></article>
+        <article><div>P</div><h3>Paula Souza <span>★★★★★</span></h3><b>Compra verificada</b><p>Minha experiência foi incrível! As peças são ainda mais bonitas ao vivo.</p></article>
+        <article><div>M</div><h3>Marcia Oliveira <span>★★★★★</span></h3><b>Compra verificada</b><p>Sempre encontro peças únicas e cheias de estilo.</p></article>
+      </div>
+    </section>
+
+    <section class="instagram-section">
+      <div>
+        <small>@closet_ericasouza</small>
+        <h2>Siga a Closet Erica Souza no Instagram</h2>
+        <p>Novidades, provadores, lançamentos e ofertas exclusivas direto no perfil.</p>
+      </div>
+      <a target="_blank" href="https://www.instagram.com/closet_ericasouza">ACESSAR INSTAGRAM</a>
+    </section>
+
+    <section class="section faq">
+      <div class="title center"><h2>Dúvidas Frequentes</h2></div>
+      <details><summary>Qual o prazo de entrega?</summary><p>O prazo varia de acordo com o endereço de envio.</p></details>
+      <details><summary>Qual o valor do frete?</summary><p>O valor é calculado conforme o CEP informado.</p></details>
+      <details><summary>O site possui frete grátis?</summary><p>Sim, em campanhas e compras selecionadas.</p></details>
+      <details><summary>Como acompanho a minha entrega?</summary><p>O acompanhamento é enviado pelo WhatsApp.</p></details>
+    </section>
+  </main>
+
+  <section class="newsletter">
+    <div><span>✉</span><strong>Cadastre-se em nossa newsletter</strong><small>e receba novidades e promoções</small></div>
+    <form><input placeholder="Digite o seu nome"><input placeholder="Digite seu e-mail"><button>CADASTRAR ›</button></form>
+  </section>
+
+  <footer class="footer">
+    <div><a class="logo footer-logo"><span>CLOSET</span><small>ERICA SOUZA</small></a><p class="social">f ◎ 𝕏 ▶ P in ♪</p></div>
+    <div><h3>Categorias</h3><a>Vestidos</a><a>Blusas</a><a>Conjuntos</a><a>Calças</a><a>Saias</a><a>Shorts</a></div>
+    <div><h3>Institucional</h3><a>Sobre a loja</a><a>Como comprar</a><a>Segurança</a><a>Envio</a><a>Pagamentos</a></div>
+    <div><h3>Atendimento</h3><a href="https://wa.me/556196278229">☏ +55 61 9627-8229</a><a>✉ atendimento@closetericasouza.com.br</a><a>Segunda a Sexta das 8h às 20h</a></div>
+    <div><h3>Formas de pagamento</h3><p>VISA • MASTER • PIX • BOLETO</p><h3>Selos de Segurança</h3><p>✓ Site protegido</p></div>
+  </footer>
+
+  <div class="float">
+    <a target="_blank" class="whats" href="https://wa.me/556196278229">☏</a>
+    <a target="_blank" class="insta" href="https://www.instagram.com/closet_ericasouza">◎</a>
+    <button id="topBtn">⌃</button>
+  </div>
+</body>
+</html>
